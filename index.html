@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MobiHome3D</title>
+    <link href="https://cdn.jsdelivr.net/animatecss/3.4.0/animate.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/morphext.css">
+    <script src="https://cdn.jsdelivr.net/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="dist/js/morphext.min.js"></script>
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+							
+								<img style="display:inline-block;" class="header-logo-image" src="dist/images/greenbus.png" alt="Logo">
+                                <strong style="color: #4dec90;">Mobi</strong><strong style="color: #19b5ff;">Home</strong><strong style="color: #4dec90;">3D</strong>
+
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Design your <span id="js-rotating" class="morphext" style="color: #4dec90;">Tiny House, Campervan, Camper Trailer, House Boat</span> on your Smartphone</h1>
+	                        <p class="hero-paragraph"><strong style="color: #19b5ff;">MobiHome3D</strong> enables you to plan & design your next mobile home directly on your mobile device. The app is currently in development but will be available soon.</p>
+	                        <!--<div class="hero-cta"><a class="button button-primary" href="#">Pre order now</a><a class="button" href="#">Get in touch</a></div>-->
+						</div>
+						<div class="hero-figure anime-element">
+							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+								<rect width="528" height="396" style="fill:transparent;" />
+							</svg>
+							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
+							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
+							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
+							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
+							<div class="hero-figure-box hero-figure-box-05"></div>
+							<div class="hero-figure-box hero-figure-box-06"></div>
+							<div class="hero-figure-box hero-figure-box-07"></div>
+							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
+							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
+							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+<!--
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+                        <div class="features-wrap">
+                        	
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Be Productive</h4>
+                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                </div>
+                            </div>
+							<div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Be Productive</h4>
+                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Be Productive</h4>
+                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-04.svg" alt="Feature 04">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Be Productive</h4>
+                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                </div>
+                            </div>
+							<div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-05.svg" alt="Feature 05">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Be Productive</h4>
+                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                </div>
+                            </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img src="dist/images/feature-icon-06.svg" alt="Feature 06">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Be Productive</h4>
+                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pricing section">
+                <div class="container-sm">
+                    <div class="pricing-inner section-inner">
+                        <div class="pricing-header text-center">
+                            <h2 class="section-title mt-0">Unlimited for all</h2>
+                            <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
+                        </div>
+						<div class="pricing-tables-wrap">
+                            <div class="pricing-table">
+                                <div class="pricing-table-inner is-revealing">
+                                    <div class="pricing-table-main">
+                                        <div class="pricing-table-header pb-24">
+                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">49</span><span class="text-xs">/month</span></div>
+                                        </div>
+										<div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
+                                        <ul class="pricing-table-features list-reset text-xs">
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+                                            <li>
+                                                <span>Lorem ipsum dolor sit nisi</span>
+                                            </li>
+											<li>
+												<span>Lorem ipsum dolor sit nisi</span>
+											</li>
+                                        </ul>
+                                    </div>
+                                    <div class="pricing-table-cta mb-8">
+                                        <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			-->
+			<section class="cta section">
+				<div class="container">
+					<div class="cta-inner section-inner">
+						<!--<h3 class="section-title mt-0">Still not convinced on buying?</h3>
+						<div class="cta-cta">
+							<a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
+						</div>-->
+						<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+						<style type="text/css">
+							#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+							/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+							   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+						</style>
+						<div id="mc_embed_signup">
+						<form action="https://mobihome3d.us7.list-manage.com/subscribe/post?u=81e199f6c7c5069ff900af936&amp;id=aac9461264" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						    <div id="mc_embed_signup_scroll">
+							<label for="mce-EMAIL">Get informed once the app is released</label>
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+						    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_81e199f6c7c5069ff900af936_aac9461264" tabindex="-1" value=""></div>
+						    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"></div>
+						    </div>
+						</form>
+						</div>
+					</div>
+				</div>
+			</section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+						<!--<a href="#">
+							<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+						</a>-->
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <!--<li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ's</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                    -->
+                        <li>
+                            <a href="imprint.html">Imprint</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://www.instagram.com/mobihome3d" target="_blank">
+                                <span class="screen-reader-text">Instagram</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.105 3.892a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0zM8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" fill="#0270D7"/>
+      								<path d="M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/mobihome3d" target="_blank">
+                                <span class="screen-reader-text">Twitter</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCt3pn84u8agn0PbOW_9OCCw" target="_blank">
+                                <span class="screen-reader-text">Youtube</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M15.8,4.8c-0.2-1.3-0.8-2.2-2.2-2.4C11.4,2,8,2,8,2S4.6,2,2.4,2.4C1,2.6,0.3,3.5,0.2,4.8C0,6.1,0,8,0,8s0,1.9,0.2,3.2c0.2,1.3,0.8,2.2,2.2,2.4C4.6,14,8,14,8,14s3.4,0,5.6-0.4c1.4-0.3,2-1.1,2.2-2.4C16,9.9,16,8,16,8S16,6.1,15.8,4.8zM6,11V5l5,3L6,11z" fill="#0270D7"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2020 Steffen Roemer - orkitec, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+    <script>
+    	$("#js-rotating").Morphext({
+    animation: "fadeIn", // Overrides default "bounceIn"
+    separator: ",", // Overrides default ","
+    speed: 3000, // Overrides default 2000
+    complete: function () {
+        // Overrides default empty function
+    }
+});
+    </script>
+</body>
+</html>
